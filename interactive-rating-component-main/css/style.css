@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+._container__main-rating, ._container__main-thank {
+    width: 33%;
+    background-color: #262E38;
+    padding: 2rem;
+    border-radius: 1rem;
+    height: max-content;
+}
+
+._container__main-thank {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+li {
+    font-size: 1rem;
+    color: hsl(216, 12%, 54%);
+    border: 1px solid transparent;
+    padding: 1rem 1.25rem;
+    background-color: hsla(216, 12%, 54%, .1);
+    border-radius: 50%;
+}
+
+li:hover {
+    background-color: #FC7614;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.clicked {
+    color: #FFFFFF;
+    background-color: #7C8798;
+}
+
+h1 {
+    font-size: 1.75rem;
+    color: #FFFFFF;
+    padding: 1rem 0;
+}
+
+._container__main-rating p {
+    font-size: 0.9rem;
+    color: #969FAD;
+}
+
+.main{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #FC7614;
+    width: 100%;
+    padding: 0.75rem 0;
+    border: none;
+    border-radius: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.thank {
+    cursor: default;
+    color: #FC7614;
+    padding: 0.2rem 1rem;
+    border-radius: 1.5rem;
+    border: 1px solid transparent;
+    margin-top: 1.5rem;
+    background-color: hsla(216, 12%, 54%, .1);
+}
+
+button:hover, button:active {
+    color: #FC7614;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+    
+.star {
+    outline: 1rem solid hsla(216, 12%, 54%, .1);
+    background-color: hsla(216, 12%, 54%, .1);
+    border-radius: 50%;
+    margin: 0 0 0.8rem 0.8rem;
+}
+
+._container__main-thank img {
+    width: 40%;
+    max-width: 40%;
+    display: block;
+}
+
+._container__main-thank p {
+    font-size: 0.9rem;
+    color: #969FAD;
+    text-align: center;
+    line-height: 1.5rem;
+}
